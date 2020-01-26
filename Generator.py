@@ -6,14 +6,17 @@ import random
 import pprint
 import json
 import datetime
-import pymongo
+from config import mydb
 import Mongo
 
 
 first_name = ''
 last_name = ''
 patronomik = ''
-clas = 10
+clas = {'gb': [], 'bb': [], 'norm': []}
+classes = {}
+for i in range(11):
+    classes.update({i+1: clas})
 gb = []
 bb = []
 norm = []
@@ -31,20 +34,18 @@ visition = ['Был', 'Уважительная причина', 'Не уваж�
 subject_names = ['Математика', 'Химия', 'Физика', 'Астрономия', 'Информатика', 'Биология']
 
 
-def classify_students():
-    for i in range(20000):
-        if i % 5 == 0:
-            gb.append(i)
-        elif i % 5 == 1:
-            bb.append(i)
-        else:
-            norm.append(i)
-    return
+# def classify_students():
+#     for i in range(20000):
+#         if i % 5 == 0:
+#             gb.append(i)
+#         elif i % 5 == 1:
+#             bb.append(i)
+#         else:
+#             norm.append(i)
+#     return
 
 
 def correct_marks_by_subject(students, subject, min_mark):
-    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-    mydb = myclient['mydatabase']
     mytt = mydb['student']
     pprint.pprint(students)
     for student in students:
@@ -94,27 +95,30 @@ def Student():
                 #     pprint.pprint(good_guys, f)
         idStudent = i
         gend = Gender.FEMALE
+        clas = i % 11 + 1
         if i % 5 == 0:
             st_type = 'otl'
             min_mark = 4
             max_mark = 5
-            gb.append(i)
+            # gb.append(i)
+            classes[clas]['gb'].append(i)
         elif i % 5 == 1:
             st_type = 'udvl'
             min_mark = 2
             max_mark = 4
-            bb.append(i)
+            # bb.append(i)
+            classes[clas]['bb'].append(i)
         else:
             st_type = 'hor'
             min_mark = 3
             max_mark = 5
-            norm.append(i)
+            # norm.append(i)
+            classes[clas]['norm'].append(i)
         if i % 2 == 1:
             gend = Gender.MALE
         first_name = a.name(gender=gend)
         last_name = a.last_name(gender=gend)
         patronymic = ru.patronymic(gender=gend)
-        clas = i % 11 + 1
         subject = []
         for j in range(6):
             marks = []
@@ -216,49 +220,59 @@ def School():
             sch_status = 'norm'
         for j in range(len(subject_names)):
             teachers = []
+            cp = 1
             for count, tt in enumerate(Teachers):
-                # tt = random.choice(Teachers)
-                for cp in range(5):
-                    if j in tt.get('subjects'):
-                        teachers.append({'teacher': tt.get('idTeacher'), 'class': (count + cp) % 11 + 1,
-                                         'date_of_start': mimesis.Datetime.date(d, 2016, 2016), 'date_of_end': None})
-                    tt = random.choice(Teachers)
-                if count % 13 == 0 and count:
-                    teachers = []
+                if j in tt.get('subjects'):
+                    teachers.append({'teacher': tt.get('idTeacher'), 'class': cp,
+                                     'date_of_start': mimesis.Datetime.date(d, 2016, 2016), 'date_of_end': None})
+                    cp += 1
+                    if cp == 12:
+                        break
+                    # tt = random.choice(Teachers)
+                # break
             subjects.append({'idSubject': j, 'teachers': teachers})
         students = []
+        pprint.pprint(subjects)
         idst = counter
-        for k in range(100): # 200
+        for k in range(99): # 200
             print(idst)
             if sch_status == 'good':
                 if k % 2 == 0:
-                    idst = gb.pop(0)
+                    # idst = gb.pop(0)
+                    idst = classes[k % 11 + 1]['gb'].pop(0)
                     students.append(idst)
                 else:
-                    idst = norm.pop(0)
+                    # idst = norm.pop(0)
+                    idst = classes[k % 11 + 1]['bb'].pop(0)
                     students.append(idst)
             elif sch_status == 'bad':
                 if k % 2 == 0:
-                    idst = norm.pop(0)
+                    # idst = norm.pop(0)
+                    idst = classes[k % 11 + 1]['norm'].pop(0)
                     students.append(idst)
                 else:
-                    idst = bb.pop(0)
+                    # idst = bb.pop(0)
+                    idst = classes[k % 11 + 1]['bb'].pop(0)
                     students.append(idst)
             else:
                 if k % 10 == 0:
-                    idst = gb.pop(0)
+                    # idst = gb.pop(0)
+                    idst = classes[k % 11 + 1]['gb'].pop(0)
                     students.append(idst)
                 elif k % 2 == 0:
-                    idst = norm.pop(0)
+                    # idst = norm.pop(0)
+                    idst = classes[k % 11 + 1]['norm'].pop(0)
                     students.append(idst)
                 else:
-                    idst = bb.pop(0)
+                    # idst = bb.pop(0)
+                    idst = classes[k % 11 + 1]['bb'].pop(0)
                     students.append(idst)
-            idst += 1
+            # idst += 1
+            # print(len(classes[k % 11 + 1]['bb']), len(classes[k % 11 + 1]['gb']), len(classes[k % 11 + 1]['norm']))
         Schools.append({'idSchool': i, 'subject': subjects, 'students': students})
-        print('OPAAAA')
+        # print('OPAAAA')
         r_sub = random.randint(1, 5)
-        print(r_sub)
+        # print(r_sub)
         if sch_status == 'good' or sch_status == 'bad':
             correct_marks_by_subject(students, r_sub, 4 if sch_status == 'good' else 2)
         # pprint.pprint(Schools)
@@ -274,7 +288,7 @@ def School():
 
 
 def Region():
-    Reqion = {'Region': 'Башкортостан'}
+    Reqion = {'region': 'Башкортостан'}
     areas = {}
     for i in range(3): # 10
         st = 'Area' + str(i)
@@ -283,7 +297,7 @@ def Region():
             qq = 'School#' + str(j + i*20)  # 100
             schools.update({qq: j + i*20})  # 100
         areas.update({st: schools})
-    Reqion.update({'Areas': areas})
+    Reqion.update({'areas': areas})
     return Reqion
 
 
@@ -327,7 +341,7 @@ Mongo.create_table_and_insert_data('subject', 'Data/Subject.txt')
 print('Done Subject')
 
 
-classify_students()
+# classify_students()
 
 Student()
 Mongo.fcking_students()

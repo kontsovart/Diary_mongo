@@ -1,6 +1,6 @@
 import pprint
 import json
+from config import mydb
 
-
-with open('/home/kamidae/PycharmProjects/analitics/School/School0.txt', 'r') as f:
-    pprint.pprint(json.loads(f.read()))
+for item in mydb['tmp_teacher'].find({'id': '6_0_20'}, {'_id': 0, 'data': 1}):
+    pprint.pprint(item)

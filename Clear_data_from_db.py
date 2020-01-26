@@ -1,23 +1,9 @@
-import pymongo
+from config import mydb
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-mydb = myclient["mydatabase"]
-# mycol = mydb["student"]
-# x = mycol.delete_many({})
-# print(x.deleted_count, " documents deleted.")
-
-mycol = mydb["tmp_pie"]
+mycol = mydb["tmp_teacher"]
 x = mycol.delete_many({})
 print(x.deleted_count, " documents deleted.")
 
-mycol = mydb["tmp_column"]
-x = mycol.delete_many({})
-print(x.deleted_count, " documents deleted.")
-
-mycol = mydb["tmp"]
-x = mycol.delete_many({})
-print(x.deleted_count, " documents deleted.")
-# #
 # mycol = mydb["school"]
 # x = mycol.delete_many({})
 # print(x.deleted_count, " documents deleted.")
@@ -32,9 +18,26 @@ print(x.deleted_count, " documents deleted.")
 #
 # mycol = mydb["teacher"]
 # x = mycol.delete_many({})
-#
 # print(x.deleted_count, " documents deleted.")
-# #
+#
+# mycol = mydb["student"]
+# x = mycol.delete_many({})
+# print(x.deleted_count, " documents deleted.")
+#
+#
 # mycol = mydb["tree"]
 # x = mycol.delete_many({})
 # print(x.deleted_count, " documents deleted.")
+
+# mycol = mydb["tmp_student"]
+# x = mycol.delete_many({})
+# print(x.deleted_count, " documents deleted.")
+# # #
+# mycol = mydb["tmp"]
+# x = mycol.delete_many({})
+# print(x.deleted_count, " documents deleted.")
+# #
+# mycol = mydb["alerts"]
+# x = mycol.delete_many({})
+# print(x.deleted_count, " documents deleted.")
+# #

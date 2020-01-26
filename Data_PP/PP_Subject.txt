@@ -1,0 +1,729 @@
+[{'idSubject': 0,
+  'info': 'Математика',
+  'themes': [{'date_of_begin': datetime.date(2017, 1, 5),
+              'date_of_end': datetime.date(2017, 1, 6),
+              'theme': 'Do you come here often?'},
+             {'date_of_begin': datetime.date(2017, 1, 10),
+              'date_of_end': datetime.date(2017, 1, 18),
+              'theme': 'They are written as strings of consecutive '
+                       'alphanumeric characters, the first character being '
+                       'lowercase.'},
+             {'date_of_begin': datetime.date(2017, 1, 20),
+              'date_of_end': datetime.date(2017, 2, 9),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2017, 2, 23),
+              'date_of_end': datetime.date(2017, 3, 7),
+              'theme': 'Initially composing light-hearted and irreverent '
+                       'works, he also wrote serious, sombre and religious '
+                       'pieces beginning in the 1930s.'},
+             {'date_of_begin': datetime.date(2017, 3, 7),
+              'date_of_end': datetime.date(2017, 3, 12),
+              'theme': 'Tuples are containers for a fixed number of Erlang '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2017, 4, 4),
+              'date_of_end': datetime.date(2017, 4, 25),
+              'theme': 'Where are my pants?'},
+             {'date_of_begin': datetime.date(2017, 5, 25),
+              'date_of_end': datetime.date(2017, 5, 26),
+              'theme': 'Tuples are containers for a fixed number of Erlang '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2017, 6, 26),
+              'date_of_end': datetime.date(2017, 6, 28),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2017, 8, 27),
+              'date_of_end': datetime.date(2017, 9, 1),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2017, 9, 4),
+              'date_of_end': datetime.date(2017, 9, 14),
+              'theme': 'Haskell is a standardized, general-purpose purely '
+                       'functional programming language, with non-strict '
+                       'semantics and strong static typing.'},
+             {'date_of_begin': datetime.date(2017, 9, 21),
+              'date_of_end': datetime.date(2017, 10, 11),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2017, 10, 19),
+              'date_of_end': datetime.date(2017, 10, 26),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2017, 11, 4),
+              'date_of_end': datetime.date(2017, 11, 27),
+              'theme': 'Its main implementation is the Glasgow Haskell '
+                       'Compiler.'},
+             {'date_of_begin': datetime.date(2017, 11, 28),
+              'date_of_end': datetime.date(2018, 1, 5),
+              'theme': 'Messages can be sent to and received from ports, but '
+                       'these messages must obey the so-called "port '
+                       'protocol."'},
+             {'date_of_begin': datetime.date(2018, 1, 7),
+              'date_of_end': datetime.date(2018, 1, 25),
+              'theme': 'Atoms are used within a program to denote '
+                       'distinguished values.'},
+             {'date_of_begin': datetime.date(2018, 1, 26),
+              'date_of_end': datetime.date(2018, 2, 1),
+              'theme': 'Atoms are used within a program to denote '
+                       'distinguished values.'},
+             {'date_of_begin': datetime.date(2018, 2, 6),
+              'date_of_end': datetime.date(2018, 2, 8),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2018, 2, 9),
+              'date_of_end': datetime.date(2018, 3, 21),
+              'theme': 'It is also a garbage-collected runtime system.'},
+             {'date_of_begin': datetime.date(2018, 4, 8),
+              'date_of_end': datetime.date(2018, 4, 8),
+              'theme': 'They are written as strings of consecutive '
+                       'alphanumeric characters, the first character being '
+                       'lowercase.'},
+             {'date_of_begin': datetime.date(2018, 4, 14),
+              'date_of_end': datetime.date(2018, 4, 14),
+              'theme': 'Initially composing light-hearted and irreverent '
+                       'works, he also wrote serious, sombre and religious '
+                       'pieces beginning in the 1930s.'},
+             {'date_of_begin': datetime.date(2018, 6, 3),
+              'date_of_end': datetime.date(2018, 6, 11),
+              'theme': 'Atoms are used within a program to denote '
+                       'distinguished values.'},
+             {'date_of_begin': datetime.date(2018, 6, 19),
+              'date_of_end': datetime.date(2018, 6, 26),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2018, 7, 6),
+              'date_of_end': datetime.date(2018, 8, 19),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2018, 8, 29),
+              'date_of_end': datetime.date(2018, 9, 14),
+              'theme': 'Do you come here often?'},
+             {'date_of_begin': datetime.date(2018, 9, 17),
+              'date_of_end': datetime.date(2018, 9, 20),
+              'theme': 'Initially composing light-hearted and irreverent '
+                       'works, he also wrote serious, sombre and religious '
+                       'pieces beginning in the 1930s.'},
+             {'date_of_begin': datetime.date(2018, 9, 22),
+              'date_of_end': datetime.date(2018, 10, 8),
+              'theme': 'Type classes first appeared in the Haskell programming '
+                       'language.'},
+             {'date_of_begin': datetime.date(2018, 10, 24),
+              'date_of_end': datetime.date(2018, 10, 27),
+              'theme': 'Ports are used to communicate with the external '
+                       'world.'},
+             {'date_of_begin': datetime.date(2018, 10, 29),
+              'date_of_end': datetime.date(2018, 10, 31),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2018, 11, 16),
+              'date_of_end': datetime.date(2018, 11, 23),
+              'theme': 'Make me a sandwich.'},
+             {'date_of_begin': datetime.date(2018, 11, 27),
+              'date_of_end': datetime.date(2018, 11, 28),
+              'theme': 'Messages can be sent to and received from ports, but '
+                       'these messages must obey the so-called "port '
+                       'protocol."'}]},
+ {'idSubject': 1,
+  'info': 'Химия',
+  'themes': [{'date_of_begin': datetime.date(2017, 1, 7),
+              'date_of_end': datetime.date(2017, 1, 12),
+              'theme': 'Haskell features a type system with type inference and '
+                       'lazy evaluation.'},
+             {'date_of_begin': datetime.date(2017, 1, 13),
+              'date_of_end': datetime.date(2017, 2, 16),
+              'theme': 'Haskell is a standardized, general-purpose purely '
+                       'functional programming language, with non-strict '
+                       'semantics and strong static typing.'},
+             {'date_of_begin': datetime.date(2017, 2, 20),
+              'date_of_end': datetime.date(2017, 3, 4),
+              'theme': 'Haskell is a standardized, general-purpose purely '
+                       'functional programming language, with non-strict '
+                       'semantics and strong static typing.'},
+             {'date_of_begin': datetime.date(2017, 3, 16),
+              'date_of_end': datetime.date(2017, 3, 19),
+              'theme': 'Messages can be sent to and received from ports, but '
+                       'these messages must obey the so-called "port '
+                       'protocol."'},
+             {'date_of_begin': datetime.date(2017, 3, 20),
+              'date_of_end': datetime.date(2017, 3, 25),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2017, 3, 27),
+              'date_of_end': datetime.date(2017, 4, 30),
+              'theme': 'Messages can be sent to and received from ports, but '
+                       'these messages must obey the so-called "port '
+                       'protocol."'},
+             {'date_of_begin': datetime.date(2017, 5, 6),
+              'date_of_end': datetime.date(2017, 5, 17),
+              'theme': 'The Galactic Empire is nearing completion of the Death '
+                       'Star, a space station with the power to destroy entire '
+                       'planets.'},
+             {'date_of_begin': datetime.date(2017, 6, 3),
+              'date_of_end': datetime.date(2017, 6, 7),
+              'theme': 'Ports are created with the built-in function '
+                       'open_port.'},
+             {'date_of_begin': datetime.date(2017, 6, 8),
+              'date_of_end': datetime.date(2017, 6, 17),
+              'theme': 'Messages can be sent to and received from ports, but '
+                       'these messages must obey the so-called "port '
+                       'protocol."'},
+             {'date_of_begin': datetime.date(2017, 6, 23),
+              'date_of_end': datetime.date(2017, 6, 29),
+              'theme': 'Messages can be sent to and received from ports, but '
+                       'these messages must obey the so-called "port '
+                       'protocol."'},
+             {'date_of_begin': datetime.date(2017, 7, 2),
+              'date_of_end': datetime.date(2017, 7, 30),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2017, 8, 7),
+              'date_of_end': datetime.date(2017, 8, 18),
+              'theme': 'In 1989 the building was heavily damaged by fire, but '
+                       'it has since been restored.'},
+             {'date_of_begin': datetime.date(2017, 10, 12),
+              'date_of_end': datetime.date(2017, 10, 18),
+              'theme': 'The arguments can be primitive data types or compound '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2017, 10, 18),
+              'date_of_end': datetime.date(2017, 10, 20),
+              'theme': 'Ports are created with the built-in function '
+                       'open_port.'},
+             {'date_of_begin': datetime.date(2017, 10, 28),
+              'date_of_end': datetime.date(2017, 10, 29),
+              'theme': 'Make me a sandwich.'},
+             {'date_of_begin': datetime.date(2017, 10, 31),
+              'date_of_end': datetime.date(2017, 11, 30),
+              'theme': 'Any element of a tuple can be accessed in constant '
+                       'time.'},
+             {'date_of_begin': datetime.date(2018, 1, 9),
+              'date_of_end': datetime.date(2018, 1, 10),
+              'theme': 'Make me a sandwich.'},
+             {'date_of_begin': datetime.date(2018, 1, 12),
+              'date_of_end': datetime.date(2018, 1, 20),
+              'theme': 'The Galactic Empire is nearing completion of the Death '
+                       'Star, a space station with the power to destroy entire '
+                       'planets.'},
+             {'date_of_begin': datetime.date(2018, 2, 18),
+              'date_of_end': datetime.date(2018, 3, 11),
+              'theme': 'Do you come here often?'},
+             {'date_of_begin': datetime.date(2018, 4, 5),
+              'date_of_end': datetime.date(2018, 4, 5),
+              'theme': 'Do you have any idea why this is not working?'},
+             {'date_of_begin': datetime.date(2018, 4, 20),
+              'date_of_end': datetime.date(2018, 4, 26),
+              'theme': 'Erlang is known for its designs that are well suited '
+                       'for systems.'},
+             {'date_of_begin': datetime.date(2018, 5, 17),
+              'date_of_end': datetime.date(2018, 5, 31),
+              'theme': 'Haskell is a standardized, general-purpose purely '
+                       'functional programming language, with non-strict '
+                       'semantics and strong static typing.'},
+             {'date_of_begin': datetime.date(2018, 6, 5),
+              'date_of_end': datetime.date(2018, 6, 15),
+              'theme': 'Do you come here often?'},
+             {'date_of_begin': datetime.date(2018, 6, 15),
+              'date_of_end': datetime.date(2018, 6, 19),
+              'theme': 'The arguments can be primitive data types or compound '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2018, 6, 27),
+              'date_of_end': datetime.date(2018, 6, 28),
+              'theme': 'Where are my pants?'},
+             {'date_of_begin': datetime.date(2018, 7, 26),
+              'date_of_end': datetime.date(2018, 9, 11),
+              'theme': 'Ports are used to communicate with the external '
+                       'world.'},
+             {'date_of_begin': datetime.date(2018, 9, 20),
+              'date_of_end': datetime.date(2018, 10, 1),
+              'theme': 'Type classes first appeared in the Haskell programming '
+                       'language.'},
+             {'date_of_begin': datetime.date(2018, 10, 9),
+              'date_of_end': datetime.date(2018, 10, 13),
+              'theme': 'It is also a garbage-collected runtime system.'},
+             {'date_of_begin': datetime.date(2018, 11, 6),
+              'date_of_end': datetime.date(2018, 11, 19),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2018, 11, 30),
+              'date_of_end': datetime.date(2018, 12, 13),
+              'theme': 'Initially composing light-hearted and irreverent '
+                       'works, he also wrote serious, sombre and religious '
+                       'pieces beginning in the 1930s.'}]},
+ {'idSubject': 2,
+  'info': 'Физика',
+  'themes': [{'date_of_begin': datetime.date(2017, 1, 21),
+              'date_of_end': datetime.date(2017, 2, 7),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2017, 2, 16),
+              'date_of_end': datetime.date(2017, 2, 17),
+              'theme': 'Erlang is known for its designs that are well suited '
+                       'for systems.'},
+             {'date_of_begin': datetime.date(2017, 3, 13),
+              'date_of_end': datetime.date(2017, 3, 16),
+              'theme': 'Atoms can contain any character if they are enclosed '
+                       'within single quotes and an escape convention exists '
+                       'which allows any character to be used within an atom.'},
+             {'date_of_begin': datetime.date(2017, 3, 27),
+              'date_of_end': datetime.date(2017, 4, 3),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2017, 5, 2),
+              'date_of_end': datetime.date(2017, 5, 29),
+              'theme': 'Tuples are containers for a fixed number of Erlang '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2017, 6, 3),
+              'date_of_end': datetime.date(2017, 6, 4),
+              'theme': 'Any element of a tuple can be accessed in constant '
+                       'time.'},
+             {'date_of_begin': datetime.date(2017, 6, 20),
+              'date_of_end': datetime.date(2017, 6, 26),
+              'theme': 'In 1989 the building was heavily damaged by fire, but '
+                       'it has since been restored.'},
+             {'date_of_begin': datetime.date(2017, 6, 27),
+              'date_of_end': datetime.date(2017, 7, 5),
+              'theme': 'Where are my pants?'},
+             {'date_of_begin': datetime.date(2017, 7, 29),
+              'date_of_end': datetime.date(2017, 8, 2),
+              'theme': 'Haskell is a standardized, general-purpose purely '
+                       'functional programming language, with non-strict '
+                       'semantics and strong static typing.'},
+             {'date_of_begin': datetime.date(2017, 8, 26),
+              'date_of_end': datetime.date(2017, 9, 25),
+              'theme': 'Type classes first appeared in the Haskell programming '
+                       'language.'},
+             {'date_of_begin': datetime.date(2017, 9, 30),
+              'date_of_end': datetime.date(2017, 11, 19),
+              'theme': 'Do you come here often?'},
+             {'date_of_begin': datetime.date(2017, 11, 20),
+              'date_of_end': datetime.date(2017, 11, 27),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2017, 11, 29),
+              'date_of_end': datetime.date(2017, 12, 19),
+              'theme': 'Where are my pants?'},
+             {'date_of_begin': datetime.date(2018, 1, 13),
+              'date_of_end': datetime.date(2018, 1, 31),
+              'theme': 'The sequential subset of Erlang supports eager '
+                       'evaluation, single assignment, and dynamic typing.'},
+             {'date_of_begin': datetime.date(2018, 2, 6),
+              'date_of_end': datetime.date(2018, 2, 11),
+              'theme': 'Messages can be sent to and received from ports, but '
+                       'these messages must obey the so-called "port '
+                       'protocol."'},
+             {'date_of_begin': datetime.date(2018, 2, 17),
+              'date_of_end': datetime.date(2018, 2, 20),
+              'theme': 'Haskell features a type system with type inference and '
+                       'lazy evaluation.'},
+             {'date_of_begin': datetime.date(2018, 3, 12),
+              'date_of_end': datetime.date(2018, 3, 21),
+              'theme': 'It is also a garbage-collected runtime system.'},
+             {'date_of_begin': datetime.date(2018, 5, 2),
+              'date_of_end': datetime.date(2018, 5, 6),
+              'theme': 'Atoms can contain any character if they are enclosed '
+                       'within single quotes and an escape convention exists '
+                       'which allows any character to be used within an atom.'},
+             {'date_of_begin': datetime.date(2018, 5, 16),
+              'date_of_end': datetime.date(2018, 5, 19),
+              'theme': 'Do you come here often?'},
+             {'date_of_begin': datetime.date(2018, 5, 26),
+              'date_of_end': datetime.date(2018, 6, 3),
+              'theme': 'Atoms can contain any character if they are enclosed '
+                       'within single quotes and an escape convention exists '
+                       'which allows any character to be used within an atom.'},
+             {'date_of_begin': datetime.date(2018, 6, 8),
+              'date_of_end': datetime.date(2018, 7, 7),
+              'theme': 'The Galactic Empire is nearing completion of the Death '
+                       'Star, a space station with the power to destroy entire '
+                       'planets.'},
+             {'date_of_begin': datetime.date(2018, 7, 17),
+              'date_of_end': datetime.date(2018, 8, 12),
+              'theme': 'Erlang is known for its designs that are well suited '
+                       'for systems.'},
+             {'date_of_begin': datetime.date(2018, 8, 31),
+              'date_of_end': datetime.date(2018, 9, 14),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2018, 9, 21),
+              'date_of_end': datetime.date(2018, 11, 2),
+              'theme': 'Haskell features a type system with type inference and '
+                       'lazy evaluation.'},
+             {'date_of_begin': datetime.date(2018, 11, 6),
+              'date_of_end': datetime.date(2018, 11, 13),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2018, 11, 18),
+              'date_of_end': datetime.date(2018, 11, 24),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2018, 11, 26),
+              'date_of_end': datetime.date(2018, 11, 28),
+              'theme': 'Haskell is a standardized, general-purpose purely '
+                       'functional programming language, with non-strict '
+                       'semantics and strong static typing.'},
+             {'date_of_begin': datetime.date(2018, 12, 11),
+              'date_of_end': datetime.date(2018, 12, 15),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2018, 12, 22),
+              'date_of_end': datetime.date(2018, 12, 24),
+              'theme': 'Erlang is known for its designs that are well suited '
+                       'for systems.'},
+             {'date_of_begin': datetime.date(2018, 12, 29),
+              'date_of_end': datetime.date(2018, 12, 29),
+              'theme': 'In 1989 the building was heavily damaged by fire, but '
+                       'it has since been restored.'}]},
+ {'idSubject': 3,
+  'info': 'Астрономия',
+  'themes': [{'date_of_begin': datetime.date(2017, 1, 1),
+              'date_of_end': datetime.date(2017, 1, 5),
+              'theme': 'Any element of a tuple can be accessed in constant '
+                       'time.'},
+             {'date_of_begin': datetime.date(2017, 1, 18),
+              'date_of_end': datetime.date(2017, 2, 3),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2017, 3, 8),
+              'date_of_end': datetime.date(2017, 4, 2),
+              'theme': 'Its main implementation is the Glasgow Haskell '
+                       'Compiler.'},
+             {'date_of_begin': datetime.date(2017, 4, 3),
+              'date_of_end': datetime.date(2017, 4, 28),
+              'theme': 'The sequential subset of Erlang supports eager '
+                       'evaluation, single assignment, and dynamic typing.'},
+             {'date_of_begin': datetime.date(2017, 5, 27),
+              'date_of_end': datetime.date(2017, 6, 17),
+              'theme': 'Type classes first appeared in the Haskell programming '
+                       'language.'},
+             {'date_of_begin': datetime.date(2017, 6, 19),
+              'date_of_end': datetime.date(2017, 6, 27),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2017, 7, 5),
+              'date_of_end': datetime.date(2017, 7, 10),
+              'theme': 'Erlang is known for its designs that are well suited '
+                       'for systems.'},
+             {'date_of_begin': datetime.date(2017, 7, 24),
+              'date_of_end': datetime.date(2017, 8, 4),
+              'theme': 'Erlang is known for its designs that are well suited '
+                       'for systems.'},
+             {'date_of_begin': datetime.date(2017, 8, 9),
+              'date_of_end': datetime.date(2017, 8, 13),
+              'theme': 'Haskell is a standardized, general-purpose purely '
+                       'functional programming language, with non-strict '
+                       'semantics and strong static typing.'},
+             {'date_of_begin': datetime.date(2017, 8, 17),
+              'date_of_end': datetime.date(2017, 8, 21),
+              'theme': 'Ports are created with the built-in function '
+                       'open_port.'},
+             {'date_of_begin': datetime.date(2017, 8, 30),
+              'date_of_end': datetime.date(2017, 9, 2),
+              'theme': 'The sequential subset of Erlang supports eager '
+                       'evaluation, single assignment, and dynamic typing.'},
+             {'date_of_begin': datetime.date(2017, 9, 5),
+              'date_of_end': datetime.date(2017, 9, 12),
+              'theme': 'The Galactic Empire is nearing completion of the Death '
+                       'Star, a space station with the power to destroy entire '
+                       'planets.'},
+             {'date_of_begin': datetime.date(2017, 10, 8),
+              'date_of_end': datetime.date(2017, 10, 9),
+              'theme': 'Tuples are containers for a fixed number of Erlang '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2017, 10, 10),
+              'date_of_end': datetime.date(2017, 10, 12),
+              'theme': 'Erlang is known for its designs that are well suited '
+                       'for systems.'},
+             {'date_of_begin': datetime.date(2017, 10, 21),
+              'date_of_end': datetime.date(2017, 11, 8),
+              'theme': 'The syntax {D1,D2,...,Dn} denotes a tuple whose '
+                       'arguments are D1, D2, ... Dn.'},
+             {'date_of_begin': datetime.date(2017, 11, 22),
+              'date_of_end': datetime.date(2017, 12, 7),
+              'theme': 'They are written as strings of consecutive '
+                       'alphanumeric characters, the first character being '
+                       'lowercase.'},
+             {'date_of_begin': datetime.date(2017, 12, 15),
+              'date_of_end': datetime.date(2017, 12, 17),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2017, 12, 23),
+              'date_of_end': datetime.date(2018, 1, 16),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2018, 1, 30),
+              'date_of_end': datetime.date(2018, 2, 16),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2018, 2, 25),
+              'date_of_end': datetime.date(2018, 3, 21),
+              'theme': 'Haskell features a type system with type inference and '
+                       'lazy evaluation.'},
+             {'date_of_begin': datetime.date(2018, 3, 23),
+              'date_of_end': datetime.date(2018, 3, 24),
+              'theme': 'The arguments can be primitive data types or compound '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2018, 4, 19),
+              'date_of_end': datetime.date(2018, 4, 25),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2018, 5, 9),
+              'date_of_end': datetime.date(2018, 5, 11),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2018, 5, 22),
+              'date_of_end': datetime.date(2018, 6, 5),
+              'theme': 'Atoms are used within a program to denote '
+                       'distinguished values.'},
+             {'date_of_begin': datetime.date(2018, 6, 15),
+              'date_of_end': datetime.date(2018, 6, 24),
+              'theme': 'The sequential subset of Erlang supports eager '
+                       'evaluation, single assignment, and dynamic typing.'},
+             {'date_of_begin': datetime.date(2018, 7, 8),
+              'date_of_end': datetime.date(2018, 7, 10),
+              'theme': 'Ports are used to communicate with the external '
+                       'world.'},
+             {'date_of_begin': datetime.date(2018, 7, 17),
+              'date_of_end': datetime.date(2018, 9, 8),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2018, 10, 15),
+              'date_of_end': datetime.date(2018, 10, 31),
+              'theme': 'Ports are used to communicate with the external '
+                       'world.'},
+             {'date_of_begin': datetime.date(2018, 11, 21),
+              'date_of_end': datetime.date(2018, 11, 26),
+              'theme': 'The syntax {D1,D2,...,Dn} denotes a tuple whose '
+                       'arguments are D1, D2, ... Dn.'},
+             {'date_of_begin': datetime.date(2018, 12, 29),
+              'date_of_end': datetime.date(2018, 12, 31),
+              'theme': 'The Galactic Empire is nearing completion of the Death '
+                       'Star, a space station with the power to destroy entire '
+                       'planets.'}]},
+ {'idSubject': 4,
+  'info': 'Информатика',
+  'themes': [{'date_of_begin': datetime.date(2017, 1, 16),
+              'date_of_end': datetime.date(2017, 1, 18),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2017, 1, 26),
+              'date_of_end': datetime.date(2017, 1, 29),
+              'theme': 'Tuples are containers for a fixed number of Erlang '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2017, 2, 14),
+              'date_of_end': datetime.date(2017, 3, 26),
+              'theme': 'The syntax {D1,D2,...,Dn} denotes a tuple whose '
+                       'arguments are D1, D2, ... Dn.'},
+             {'date_of_begin': datetime.date(2017, 3, 30),
+              'date_of_end': datetime.date(2017, 4, 26),
+              'theme': 'The arguments can be primitive data types or compound '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2017, 4, 29),
+              'date_of_end': datetime.date(2017, 5, 1),
+              'theme': 'Ports are created with the built-in function '
+                       'open_port.'},
+             {'date_of_begin': datetime.date(2017, 6, 6),
+              'date_of_end': datetime.date(2017, 6, 8),
+              'theme': 'Do you come here often?'},
+             {'date_of_begin': datetime.date(2017, 6, 10),
+              'date_of_end': datetime.date(2017, 7, 11),
+              'theme': 'Its main implementation is the Glasgow Haskell '
+                       'Compiler.'},
+             {'date_of_begin': datetime.date(2017, 7, 20),
+              'date_of_end': datetime.date(2017, 7, 24),
+              'theme': 'Atoms are used within a program to denote '
+                       'distinguished values.'},
+             {'date_of_begin': datetime.date(2017, 7, 27),
+              'date_of_end': datetime.date(2017, 8, 5),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2017, 8, 16),
+              'date_of_end': datetime.date(2017, 10, 28),
+              'theme': 'Ports are created with the built-in function '
+                       'open_port.'},
+             {'date_of_begin': datetime.date(2017, 11, 16),
+              'date_of_end': datetime.date(2017, 11, 19),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2017, 11, 30),
+              'date_of_end': datetime.date(2017, 12, 19),
+              'theme': 'Do you have any idea why this is not working?'},
+             {'date_of_begin': datetime.date(2018, 1, 4),
+              'date_of_end': datetime.date(2018, 1, 6),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2018, 1, 13),
+              'date_of_end': datetime.date(2018, 1, 21),
+              'theme': 'Erlang is known for its designs that are well suited '
+                       'for systems.'},
+             {'date_of_begin': datetime.date(2018, 1, 24),
+              'date_of_end': datetime.date(2018, 1, 27),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2018, 2, 13),
+              'date_of_end': datetime.date(2018, 3, 2),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2018, 3, 26),
+              'date_of_end': datetime.date(2018, 3, 29),
+              'theme': 'Tuples are containers for a fixed number of Erlang '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2018, 4, 7),
+              'date_of_end': datetime.date(2018, 4, 21),
+              'theme': 'Haskell features a type system with type inference and '
+                       'lazy evaluation.'},
+             {'date_of_begin': datetime.date(2018, 4, 30),
+              'date_of_end': datetime.date(2018, 5, 5),
+              'theme': 'Ports are created with the built-in function '
+                       'open_port.'},
+             {'date_of_begin': datetime.date(2018, 5, 5),
+              'date_of_end': datetime.date(2018, 5, 28),
+              'theme': 'In 1989 the building was heavily damaged by fire, but '
+                       'it has since been restored.'},
+             {'date_of_begin': datetime.date(2018, 6, 1),
+              'date_of_end': datetime.date(2018, 6, 6),
+              'theme': 'Atoms can contain any character if they are enclosed '
+                       'within single quotes and an escape convention exists '
+                       'which allows any character to be used within an atom.'},
+             {'date_of_begin': datetime.date(2018, 6, 7),
+              'date_of_end': datetime.date(2018, 6, 17),
+              'theme': 'Type classes first appeared in the Haskell programming '
+                       'language.'},
+             {'date_of_begin': datetime.date(2018, 7, 5),
+              'date_of_end': datetime.date(2018, 7, 21),
+              'theme': 'Messages can be sent to and received from ports, but '
+                       'these messages must obey the so-called "port '
+                       'protocol."'},
+             {'date_of_begin': datetime.date(2018, 7, 27),
+              'date_of_end': datetime.date(2018, 8, 23),
+              'theme': 'Ports are used to communicate with the external '
+                       'world.'},
+             {'date_of_begin': datetime.date(2018, 8, 25),
+              'date_of_end': datetime.date(2018, 9, 2),
+              'theme': 'Messages can be sent to and received from ports, but '
+                       'these messages must obey the so-called "port '
+                       'protocol."'},
+             {'date_of_begin': datetime.date(2018, 9, 13),
+              'date_of_end': datetime.date(2018, 9, 15),
+              'theme': 'Any element of a tuple can be accessed in constant '
+                       'time.'},
+             {'date_of_begin': datetime.date(2018, 10, 1),
+              'date_of_end': datetime.date(2018, 10, 2),
+              'theme': 'They are written as strings of consecutive '
+                       'alphanumeric characters, the first character being '
+                       'lowercase.'},
+             {'date_of_begin': datetime.date(2018, 10, 31),
+              'date_of_end': datetime.date(2018, 11, 1),
+              'theme': 'Ports are created with the built-in function '
+                       'open_port.'},
+             {'date_of_begin': datetime.date(2018, 11, 9),
+              'date_of_end': datetime.date(2018, 11, 20),
+              'theme': 'It is also a garbage-collected runtime system.'},
+             {'date_of_begin': datetime.date(2018, 11, 22),
+              'date_of_end': datetime.date(2018, 12, 14),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'}]},
+ {'idSubject': 5,
+  'info': 'Биология',
+  'themes': [{'date_of_begin': datetime.date(2017, 1, 13),
+              'date_of_end': datetime.date(2017, 1, 30),
+              'theme': 'Erlang is a general-purpose, concurrent, functional '
+                       'programming language.'},
+             {'date_of_begin': datetime.date(2017, 2, 5),
+              'date_of_end': datetime.date(2017, 2, 8),
+              'theme': 'Its main implementation is the Glasgow Haskell '
+                       'Compiler.'},
+             {'date_of_begin': datetime.date(2017, 2, 22),
+              'date_of_end': datetime.date(2017, 2, 24),
+              'theme': 'Where are my pants?'},
+             {'date_of_begin': datetime.date(2017, 2, 28),
+              'date_of_end': datetime.date(2017, 4, 20),
+              'theme': 'The Galactic Empire is nearing completion of the Death '
+                       'Star, a space station with the power to destroy entire '
+                       'planets.'},
+             {'date_of_begin': datetime.date(2017, 4, 22),
+              'date_of_end': datetime.date(2017, 5, 9),
+              'theme': 'Ports are used to communicate with the external '
+                       'world.'},
+             {'date_of_begin': datetime.date(2017, 5, 13),
+              'date_of_end': datetime.date(2017, 6, 8),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2017, 6, 17),
+              'date_of_end': datetime.date(2017, 7, 4),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2017, 7, 24),
+              'date_of_end': datetime.date(2017, 8, 8),
+              'theme': 'It is also a garbage-collected runtime system.'},
+             {'date_of_begin': datetime.date(2017, 8, 12),
+              'date_of_end': datetime.date(2017, 8, 19),
+              'theme': 'The syntax {D1,D2,...,Dn} denotes a tuple whose '
+                       'arguments are D1, D2, ... Dn.'},
+             {'date_of_begin': datetime.date(2017, 8, 20),
+              'date_of_end': datetime.date(2017, 8, 24),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2017, 9, 27),
+              'date_of_end': datetime.date(2017, 10, 13),
+              'theme': 'Haskell features a type system with type inference and '
+                       'lazy evaluation.'},
+             {'date_of_begin': datetime.date(2017, 10, 27),
+              'date_of_end': datetime.date(2017, 11, 5),
+              'theme': 'Ports are created with the built-in function '
+                       'open_port.'},
+             {'date_of_begin': datetime.date(2017, 11, 15),
+              'date_of_end': datetime.date(2017, 11, 16),
+              'theme': 'Make me a sandwich.'},
+             {'date_of_begin': datetime.date(2017, 12, 26),
+              'date_of_end': datetime.date(2018, 1, 12),
+              'theme': 'Tuples are containers for a fixed number of Erlang '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2018, 1, 25),
+              'date_of_end': datetime.date(2018, 2, 6),
+              'theme': 'Haskell is a standardized, general-purpose purely '
+                       'functional programming language, with non-strict '
+                       'semantics and strong static typing.'},
+             {'date_of_begin': datetime.date(2018, 2, 11),
+              'date_of_end': datetime.date(2018, 2, 15),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2018, 2, 16),
+              'date_of_end': datetime.date(2018, 2, 22),
+              'theme': 'Tuples are containers for a fixed number of Erlang '
+                       'data types.'},
+             {'date_of_begin': datetime.date(2018, 3, 18),
+              'date_of_end': datetime.date(2018, 4, 5),
+              'theme': 'Do you come here often?'},
+             {'date_of_begin': datetime.date(2018, 4, 7),
+              'date_of_end': datetime.date(2018, 4, 24),
+              'theme': 'It is also a garbage-collected runtime system.'},
+             {'date_of_begin': datetime.date(2018, 5, 1),
+              'date_of_end': datetime.date(2018, 5, 2),
+              'theme': "I don't even care."},
+             {'date_of_begin': datetime.date(2018, 5, 20),
+              'date_of_end': datetime.date(2018, 5, 22),
+              'theme': 'She spent her earliest years reading classic '
+                       'literature, and writing poetry.'},
+             {'date_of_begin': datetime.date(2018, 6, 28),
+              'date_of_end': datetime.date(2018, 6, 29),
+              'theme': 'Do you come here often?'},
+             {'date_of_begin': datetime.date(2018, 6, 30),
+              'date_of_end': datetime.date(2018, 7, 2),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2018, 7, 4),
+              'date_of_end': datetime.date(2018, 7, 17),
+              'theme': 'The Galactic Empire is nearing completion of the Death '
+                       'Star, a space station with the power to destroy entire '
+                       'planets.'},
+             {'date_of_begin': datetime.date(2018, 7, 18),
+              'date_of_end': datetime.date(2018, 7, 22),
+              'theme': 'Any element of a tuple can be accessed in constant '
+                       'time.'},
+             {'date_of_begin': datetime.date(2018, 8, 11),
+              'date_of_end': datetime.date(2018, 8, 23),
+              'theme': 'Do you have any idea why this is not working?'},
+             {'date_of_begin': datetime.date(2018, 9, 6),
+              'date_of_end': datetime.date(2018, 9, 11),
+              'theme': 'He looked inquisitively at his keyboard and wrote '
+                       'another sentence.'},
+             {'date_of_begin': datetime.date(2018, 9, 12),
+              'date_of_end': datetime.date(2018, 10, 4),
+              'theme': 'Make me a sandwich.'},
+             {'date_of_begin': datetime.date(2018, 10, 26),
+              'date_of_end': datetime.date(2018, 11, 15),
+              'theme': 'Any element of a tuple can be accessed in constant '
+                       'time.'},
+             {'date_of_begin': datetime.date(2018, 12, 12),
+              'date_of_end': datetime.date(2018, 12, 26),
+              'theme': 'They are written as strings of consecutive '
+                       'alphanumeric characters, the first character being '
+                       'lowercase.'}]}]

@@ -479,7 +479,7 @@ def prepare_data_column(mas_avg,title=None,oxName=None,oyName=None):
         for item1 in mydb['subject'].find({'idSubject': item}, {'_id': 1, 'info': 1}):
             info = item1["info"]
         data1 = {}
-        data1.update({"value1": 0,"value2": 0,"value3": 0})
+        data1.update({"value1": 0, "value2": 0, "value3": 0})
         for item2 in mas_avg[item]:
             if item2 == 3:
                 data1.update({"value1": mas_avg[item][item2]})
@@ -490,7 +490,7 @@ def prepare_data_column(mas_avg,title=None,oxName=None,oyName=None):
         data1.update({"category":info})
         data.append(data1)
     series.update({"data":data})
-    return {"title":title,"oxName":oxName,"oyName":oyName,"series":series}
+    return {"title": title, "oxName": oxName, "oyName": oyName, "series": series}
 
 
 #Dobavit temu and type ocenki and grafik posesheniy

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+python3 Clear_data_from_db.py
+python3 Generator.py
+python3 Collect_tmp_new.py
+python3 Collect_tmp_teacher.py
+python3 Collect_tmp_student.py
+python3 Build_tree.py

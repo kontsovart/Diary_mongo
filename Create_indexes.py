@@ -1,12 +1,5 @@
+from config import mydb
 import pymongo
-import json
-import pprint
-import os
-import datetime
-
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-mydb = myclient['mydatabase']
-
 
 mytt = mydb['teacher']
 mytt.create_index([('idTeacher', pymongo.ASCENDING)], unique=True)
@@ -23,8 +16,9 @@ mytt.create_index([('idSubject', pymongo.ASCENDING)], unique=True)
 mytt = mydb['tmp']
 mytt.create_index([('id', pymongo.ASCENDING)], unique=False)
 
-mytt = mydb['tmp_pie']
-mytt.create_index([('id', pymongo.ASCENDING), ('id_child', pymongo.ASCENDING)], unique=True)
-#
-# mytt = mydb['tmp_pie']
-# mytt.drop_index([('id', pymongo.ASCENDING)])
+mytt = mydb['tmp_student']
+mytt.create_index([('id', pymongo.ASCENDING)], unique=False)
+
+mytt = mydb['tmp_teacher']
+mytt.create_index([('id', pymongo.ASCENDING)], unique=False)
+
