@@ -1,5 +1,5 @@
 import pprint
-from selects_clear_v3 import avg_mark_region
+from selects_clear import avg_mark_region
 from datetime import datetime
 from config import mydb
 

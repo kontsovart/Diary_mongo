@@ -1,9 +1,9 @@
 from flask import render_template, request, abort, session, redirect, url_for, Flask, Response
 import json
 import Build_tree
-from selects_clear_v3 import avg_mark_region
+from selects_clear import avg_mark_region
 import datetime
-from selects_clear_v3 import prepare_data_mix_chart
+# from selects_clear import prepare_data_mix_chart
 import pprint
 from config import mydb
 
